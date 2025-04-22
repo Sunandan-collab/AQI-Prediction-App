@@ -1,0 +1,2 @@
+# AQI Prediction App
+ This project develops a machine learning-based Air Quality Index (AQI)  prediction system that forecasts pollution levels based on various atmospheric  pollutant concentrations.The system employs a linear  regression model trained on historical air quality data to predict AQI values and  categorize them according to health impact levels. The implementation features  a user-friendly web interface built with Flask, providing real-time predictions  and visual representations of air quality metrics. 

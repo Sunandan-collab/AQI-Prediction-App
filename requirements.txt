@@ -1,0 +1,26 @@
+# Web Framework
+Flask
+gunicorn
+
+# Data Analysis
+pandas
+numpy
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Utilities
+python-dateutil
+Jinja2
+MarkupSafe
+Werkzeug
+itsdangerous
+click
+joblib
+six
+threadpoolctl
+pytz
