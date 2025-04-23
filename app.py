@@ -41,11 +41,11 @@ def home():
             display_names[col] = 'PM2.5'
         elif 'PM10' in col:
             display_names[col] = 'PM10'
-        elif 'NO' in col:
+        elif col == 'NO' or col.endswith('_NO'):
             display_names[col] = 'NO'
-        elif 'NO2' in col:
+        elif col == 'NO2' or col.endswith('_NO2'):
             display_names[col] = 'NO2'
-        elif 'NOx' in col:
+        elif col == 'NOx' or col.endswith('_NOx'):
             display_names[col] = 'NOx'
         elif 'NH3' in col:
             display_names[col] = 'NH3'
